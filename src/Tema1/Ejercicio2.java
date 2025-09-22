@@ -14,6 +14,7 @@ public class Ejercicio2 {
 		System.out.print("Introduce la edad que tendras o tienes este año:");
 		edad = reader.nextInt();
 		
+		//We calculate for the age.
 		System.out.print("El año que viene tendras " + (edad+1) + " años");
 		
 		//Closing scanner
