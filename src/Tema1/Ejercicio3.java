@@ -24,7 +24,7 @@ public class Ejercicio3 {
 		
 		//We are going to calculate the age of the reader:
 				System.out.print("Tienes " + ( añoActual - añoNacimiento ) + " años.");
-		
+		//Closing scanner
 			reader.close();
 	}
 
