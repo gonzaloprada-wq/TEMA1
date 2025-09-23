@@ -1,4 +1,4 @@
-	package Tema1;/
+	package Tema1;
 
 	import java.util.Scanner;
 	
@@ -25,8 +25,7 @@
 				//Now we calculate with Math.PI
 				System.out.println("La longitud es de "+(2*Math.PI*radio)+" cm.");
 				System.out.print("El area mide "+(Math.PI*(radio*radio))+" cm2");
-			
-			
+		
 			reader.close();
 	}
 		

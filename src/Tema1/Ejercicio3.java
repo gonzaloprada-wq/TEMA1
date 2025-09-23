@@ -26,6 +26,5 @@ public class Ejercicio3 {
 				System.out.print("Tienes " + ( añoActual - añoNacimiento ) + " años.");
 		//Closing scanner
 			reader.close();
-	}
-
+}
 }
