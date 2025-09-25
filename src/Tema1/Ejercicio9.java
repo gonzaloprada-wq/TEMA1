@@ -11,9 +11,9 @@
 				int edad;
 				
 				
-				//Here im asking for the age
+				//Here I am asking for the age
 				System.out.println("Que edad tiene?");
-				//Now Im waiting for an answer
+				//Now I am waiting for an answer
 				edad= reader.nextInt();
 				//I made a boolean to detect the age
 				 boolean esMayor = (18 <= edad);
