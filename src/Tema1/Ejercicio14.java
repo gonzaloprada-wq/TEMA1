@@ -5,12 +5,12 @@ import java.util.Scanner;
 import java.util.Locale;
 
 public class Ejercicio14 {
-
+	
 	public static void main(String[] args) {
 		
 		Scanner reader = new Scanner(System.in);
 		
-		double notasPrimeras;
+		double notasPrimeras ;
 		
 		double notasSegundas ;
 		
@@ -34,18 +34,25 @@ public class Ejercicio14 {
 			
 			System.out.print("Notas tercer trimestre: ");
 			
-			notasPrimeras = reader.nextDouble();		
+			notasTerceras = reader.nextDouble();		
 			
-			notasPrimeras = (int) notasPrimeras;
-			
-			
+			notasTerceras = (int) notasPrimeras;
 			
 			
 			
-		
-		
-
-	
-		
+			notasPrimeras = (double) notasPrimeras;
+			
+			notasSegundas = (double) notasSegundas;
+			
+			notasTerceras = (double) notasPrimeras;
+			
+			
+			
+			final double notasFinales = (notasPrimeras + notasSegundas + notasTerceras);
+			
+			System.out.println("La media final es: " + notasFinales);
+			
+			reader.close();
+																
 }
 }
