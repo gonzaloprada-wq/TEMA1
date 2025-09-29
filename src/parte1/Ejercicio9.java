@@ -1,4 +1,4 @@
-		package Tema1;
+		package parte1;
 
 		import java.util.Scanner;
 		import java.util.Locale;

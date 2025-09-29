@@ -1,4 +1,4 @@
-package Tema1;
+package parte1;
 //I put a scanner
 import java.util.Scanner;
 //I put a locale option
