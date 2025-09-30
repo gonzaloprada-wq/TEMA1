@@ -17,9 +17,8 @@ public class Ejercicio7 {
 		int cantidadInf;
 		//I create a variable for amount of adults tickets
 		int cantidadAdu;
-		
-		
-		//The a scanner to read the next keyboard comands
+				
+		//The a scanner to read the next keyboard commands
 		Scanner reader = new Scanner(System.in);
 		
 				//I ask for the amount of junior tickets 
@@ -34,6 +33,7 @@ public class Ejercicio7 {
 				total = (cantidadInf*ENTRADA_INF) + (cantidadAdu*ENTRADA_ADUL);
 				// Now i print the result with or withouth the discount
 				System.out.print("TOTAL A PAGAR " + (total >= 100 ? total -total*0.05 : total ));
+	
 				
 		//i close the reader
 		reader.close();			
