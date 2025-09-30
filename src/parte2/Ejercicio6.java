@@ -38,8 +38,7 @@ public class Ejercicio6 {
 			//the final print calculating all
 			System.out.println("Distancias: "+ (CALCULO_METROS + CALCULO_MILIME+ centimetros));
 		//scanner closed
-		reader.close();			
-
+		reader.close();		
+		
 	}
-
 }
